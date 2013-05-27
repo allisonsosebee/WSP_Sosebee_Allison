@@ -1,0 +1,270 @@
+/* 
+Poor Man's Reset
+CSSresetr.com
+*/
+html, body {
+	padding: 0;
+	margin: 0;
+	}
+html {
+	font-size: 1em;
+	}
+body {
+	font-size: 100%;
+	color: #fff;
+	font-family: 'Voces', cursive;
+	background-color: #222223;
+    background-image: url(../images/background.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	}
+a img, :link img, :visited img {
+	border: 0;
+	}
+
+
+#page-wrap {
+     width: 768px;
+     margin: 0 auto;
+}
+
+
+#logo {
+    padding: 0;
+    float: left;
+    }
+
+
+
+
+#navbar {
+	margin: 10% 0 0;
+	padding: 0;
+	height: 1em; 
+	}
+#navbar li {
+	list-style: none;
+	float: right;
+	padding: 0; 
+	 }
+#navbar li a {
+	display: block;
+	padding: 10px 40px 10px 40px;
+	background-color: #464649;
+	color: #fff;
+	font-size: 1.3em;
+	font-family: 'BenchNine', sans-serif;
+	text-decoration: none; 
+	}
+#navbar li ul {
+	display: none; 
+	width: 15em;
+	background-color: #000;
+	font-size: .75em;
+	}
+#navbar li:hover ul {
+	display: block;
+	position: absolute;
+	margin: 0;
+	padding: 0; 
+	}
+#navbar li:hover li {
+	float: none; 
+	}
+#navbar li:hover li a {
+	background-color: #000;
+	opacity: 50%;
+	border-bottom: 1px solid #323333;
+	color: #fff; 
+	}
+#navbar li li a:hover {
+	background-color: #2B9EAD; 
+	}
+
+	
+
+
+
+
+#current_show {
+    clear: both;
+    float: left;
+    padding: 0;
+    border: 1px solid #8E8C82;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#current_show img {
+    max-width: 100%;
+}
+	
+#basic_info {
+    float: right;
+    width: 20%;
+    padding: 1% 2%;
+    background: #464649;
+    color: #fff;
+    margin: 5% 0 0;
+    font-family: 'Voces', cursive;
+    font-size: 84%;
+    text-indent: 10%;
+}
+
+#side_nav {
+    float: right;
+    list-style: none;
+	margin: 2% 4% 0 0;
+	padding: 0;
+	height: 1em; 
+}
+
+#side_nav li a {
+	display: block;
+	padding: 8px 50px;
+	background-color: #2B9EAD; 
+	color: #fff;
+	font-size: 1em;
+	font-family: 'BenchNine', sans-serif;
+	text-decoration: none; 
+	margin: 8% 0;
+	}
+
+footer {
+    clear: both;
+    padding: 5% 0 0;
+    color: #fff;
+}
+
+
+
+form {
+    margin: 0 auto;
+    width: 40%;
+}
+
+
+h3 {
+    font-family: 'Voces', cursive;
+    font-size: 1.5em;
+    color: #ABDADD;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Voces', cursive;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.blocktext {
+    width: 40%;
+    margin: 0 auto;
+    clear: both
+}
+
+p {
+    text-indent: 20px;
+}
+
+
+.info {
+    text-align: center;
+    text-indent: 0%;
+}
+
+
+
+
+/*---------------------------------------------------------------------------------
+----------------------------------Call-To-Action---------------------------------*/
+
+.button {
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 1em 'BenchNine', sans-serif;
+	padding: 1% 9% .5%;
+	text-shadow: 0 1% 1% rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1% 2% rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1% 2% rgba(0,0,0,.2);
+	box-shadow: 0 1% 2% rgba(0,0,0,.2);
+	width: 40%;
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1%;
+}
+.blue {
+	color: #fff;
+	border: solid 4% #0076a3;
+	background: #2B9EAD;
+	background: -webkit-gradient(linear, left top, left bottom, from(#2B9EAD), to(#24686D));
+	background: -moz-linear-gradient(top,  #2B9EAD,  #24686D);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#2B9EAD', endColorstr='#24686D');
+    clear: both;
+}
+.blue:hover {
+	background: #2B9EAD;
+	background: -webkit-gradient(linear, left top, left bottom, from(#043C0C9), to(#2B9EAD));
+	background: -moz-linear-gradient(top,  #43C0C9,  #2B9EAD);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#43C0C9', endColorstr='#2B9EAD');
+}
+.blue:active {
+	color: #043C0C9;
+	background: -webkit-gradient(linear, left top, left bottom, from(#2B9EAD), to(#043C0C9));
+	background: -moz-linear-gradient(top,  #2B9EAD,  #043C0C9);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#2B9EAD', endColorstr='#043C0C9');
+}
+
+/*-----------------------------End-Call-To-Action---------------------------------
+---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------Media Queries-----------------------------------*/
+
+/*Mobile Landscape Size to Tablet Portrait (devices and browsers)*/
+@media only screen and (min-width:480px) and (max-width:767px) {
+    #page-wrap {480px;}
+    #navbar {clear:both; text-align: center; margin: 5% 25% 0 0}
+    h3 {padding: 5% 0 0;}
+    #current show {clear: both}
+    #basic_info {clear: both, width: 320px}
+    footer {padding: 0}
+}
+
+
+/*Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
+@media only screen and (max-width:479) {
+    #page-wrap {320px;}
+    #basic_info {clear: both, width: 320px}
+    h3 {padding: 5% 0 0; font-size: 50%;}
+    footer {padding: 0}
+}
